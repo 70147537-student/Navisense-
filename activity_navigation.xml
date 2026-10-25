@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="true" android:background="#F4F7FB">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="20dp">
+        <Button android:id="@+id/btnBack" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="← Home" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="18dp" android:text="AR Navigation" android:textColor="#123B66"
+            android:textSize="26sp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" android:text="Your route guidance preview will appear here." android:textColor="#526579"
+            android:textSize="15sp" />
+        <TextView android:layout_width="match_parent" android:layout_height="220dp"
+            android:layout_marginTop="20dp" android:background="#DCE6F0"
+            android:gravity="center" android:text="AR CAMERA VIEW\n↑\nDirectional arrow placeholder"
+            android:textColor="#123B66" android:textSize="20sp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" android:text="Estimated time: 4 minutes\nLandmark: Pass the food court, then turn right."
+            android:textColor="#26384A" android:textSize="16sp" />
+        
+        <Button
+            android:id="@+id/btnVoiceDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:minHeight="52dp"
+            android:text="Voice Guidance (Demo)" />
+    </LinearLayout>
+</ScrollView>

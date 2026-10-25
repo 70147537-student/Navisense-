@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="true" android:background="#F4F7FB">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="20dp">
+        <Button android:id="@+id/btnBack" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="← Home" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="18dp" android:text="Scan QR Code" android:textColor="#123B66"
+            android:textSize="26sp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" android:text="Scan a mall QR marker to identify your indoor location." android:textColor="#526579"
+            android:textSize="15sp" />
+        <TextView android:layout_width="match_parent" android:layout_height="180dp"
+            android:layout_marginTop="20dp" android:background="#DCE6F0"
+            android:gravity="center" android:text="CAMERA / QR SCANNER AREA\n(Placeholder for Task 1)"
+            android:textColor="#123B66" android:textSize="18sp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" android:text="Current location: Not detected"
+            android:textColor="#26384A" android:textSize="16sp" />
+        
+        <Button
+            android:id="@+id/btnDemoScan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:minHeight="52dp"
+            android:text="Use Demo Location" />
+    </LinearLayout>
+</ScrollView>
